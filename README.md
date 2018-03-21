@@ -35,16 +35,17 @@ Write a program where, given a number of random string, it will output the the c
 countCharacter("bcdefgabcdefg")
 ```
 
-Wrote two algorithms to support: countCharacterByLoop(); countCharacterByDictionary()
+Wrote two algorithms: countCharacterByLoop(); countCharacterByDictionary()
 
 
 ## Problem 3
 Write a calculator which takes in a number of string input and perform calculation. The input can accept a number of operators. The operators are:
-Addition (+)
-Subtraction (-)
-Multiplication (x)
-Division (/)
-Modulus (%)
+*    `+` Addition
+*    `-` Subtraction
+*    `x` Multiplication
+*    `/` Division
+*    `%` Modulus
+
 
 The multiplication, division, and modulus have a higher precedence over the addition and multiplication rule. Numbers can optionally have the negative (-) sign in front of them. Decimal of all individual calculation are kept, and can only be rounded down as the total calculation. Below are sample input and output
 
